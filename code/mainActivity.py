@@ -1,17 +1,18 @@
 import csv
 import os
 import numpy as np
+import matplotlib.pyplot as plt
 
 def readcsv(ID):
     dev1 = pergunta2(0, ID)
-    dev2 = pergunta2(1, ID)
-    dev3 = pergunta2(2, ID)
-    dev4 = pergunta2(3, ID)
-    dev5 = pergunta2(4, ID)
+    boxplot(dev1)
+    #dev2 = pergunta2(1, ID)
+    #dev3 = pergunta2(2, ID)
+    #dev4 = pergunta2(3, ID)
+    #dev5 = pergunta2(4, ID)
 
     #print(dataID)
-
-
+    
 
 def pergunta2(i, ID):
     file = "part" + str(ID) + "dev" + str(i+1) + ".csv"
@@ -25,6 +26,11 @@ def pergunta2(i, ID):
             dev.append(linha)
 
     return np.array(dev)
+
+def boxplot(data):
+    plt.figure()
+    plt.boxplot(data[::2, ::4])
+
 
 
 if __name__ == "__main__":
