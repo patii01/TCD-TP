@@ -16,7 +16,7 @@ def readcsv(ID):
 
 def pergunta2(i, ID):
     file = "part" + str(ID) + "dev" + str(i+1) + ".csv"
-    pasta = "dataset/part" + str(ID)
+    pasta = "dataset\part" + str(ID)
     dir = os.path.join(pasta, file)
     dev = []
     with open(dir) as csvfile:
