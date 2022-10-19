@@ -1,0 +1,6 @@
+https://www.geeksforgeeks.org/box-plot-visualization-with-pandas-and-seaborn/
+https://www.geeksforgeeks.org/finding-the-outlier-points-from-matplotlib/
+https://towardsdatascience.com/outlier-detection-part1-821d714524c
+https://stackoverflow.com/questions/15943769/how-do-i-get-the-row-count-of-a-pandas-dataframe
+https://www.w3schools.com/python/pandas/ref_df_quantile.asp
+https://stackoverflow.com/questions/14734533/how-to-access-pandas-groupby-dataframe-by-key
