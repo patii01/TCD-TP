@@ -35,7 +35,7 @@
     11. [ ] Repetição do 3.10. com uma janela de dimensão pcentrada no instante a prever, comparação com o 3.10.
 4. [x] Extração de informação característica
     1. [x] Significância estatística dos seus valores médios  nas diferentes atividades
-    2. [x] Rotina - Extração do feature set temporal e espectral sugerido no artigo [4](https://pdfs.semanticscholar.org/8522/ce2bfce1ab65b133e411350478183e79fae7.pdf
+    2. [x] Rotina - Extração do feature set temporal e espectral sugerido no artigo [4](https://pdfs.semanticscholar.org/8522/ce2bfce1ab65b133e411350478183e79fae7.pdf)
     3. [x] Implementação do PCA
     4. [x] Importância de cada vetor principal na explicação  da variabilidade do espaço de features
         1. [x] Indicar como obter as features relativas a esta compressão e exemplicar para um instante à escolha
