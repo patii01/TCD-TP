@@ -1,4 +1,4 @@
-# TP1: Classificação de Atividades Humanas 
+# TP: Classificação de Atividades Humanas 
 ### Projeto TCD - MECD (2022/2023)
 
 ## Autores
