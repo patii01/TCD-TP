@@ -62,9 +62,9 @@
 2. [ ] Experiências inciais com classificador simples
     - [x] k-Nearest  Neighbours (kNN)
     - [x] dataset Iris
-    1. [ ] Avaliar a capacidade de previsão, k = 1
-        1. [ ] Train-only, TT 70-30 e 10x10-fold cross-validation (10CV)
-        2. [ ] Train-only, TVT 40-30-30 e 10x10CV, k = 1 ,3 ,5 , ..., 15
+    1. [x] Avaliar a capacidade de previsão, k = 1
+        1. [x] Train-only, TT 70-30 e 10x10-fold cross-validation (10CV)
+        2. [x] Train-only, TVT 40-30-30 e 10x10CV, k = 1 ,3 ,5 , ..., 15
         3. [ ] Análise em termos bias-variancee underfitting-overfitting
     2. [ ] Repetir 2.1. com ReliefF e selecionar o modelo ideal
         1. [ ] Utilizar F1-score
